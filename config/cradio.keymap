@@ -49,10 +49,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        quo_hash: quo_hash {
+        quot_amp: quot_amp {
             compatible = "zmk,behavior-mod-morph";
-            label = "QUO_HASH";
-            bindings = <&kp DOUBLE_QUOTES>, <&kp HASH>;
+            label = "QUOT_AMP";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp AT_SIGN>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -126,7 +126,7 @@
 
         default_layer {
             bindings = <
-&kp B  &kp Y       &kp O        &kp U              &apos_star       &quo_hash     &kp L          &kp D        &kp V       &kp P
+&kp B  &kp Y       &kp O        &kp U              &apos_star       &quot_amp     &kp L          &kp D        &kp V       &kp P
 &kp C  &ht LALT I  &ht LCTRL E  &ht LSHIFT A       &comma_semico    &dot_colon    &ht RSHIFT H   &ht RCTRL T  &ht RALT S  &kp N
 &kp G  &kp X       &kp J        &kp K              &kp MINUS        &ques_exclam  &kp R          &kp M        &kp F       &kp P
                                 &lt LEF BACKSPACE  &kp TAB          &kp ENTER     &lt RIG SPACE
