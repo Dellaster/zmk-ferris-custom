@@ -153,6 +153,11 @@
             bindings = <&kp Z>;
             key-positions = <8 9>;
         };
+
+        combo_capsword {
+            bindings = <&caps_word>;
+            key-positions = <13 16>;
+        };
     };
 
     keymap {
@@ -160,10 +165,10 @@
 
         default_layer {
             bindings = <
-&kp B  &kp Y       &kp O        &kp U              &apos_star       &quot_amp     &kp L          &kp D        &kp V       &kp P
-&kp C  &ht LALT I  &ht LCTRL E  &ht LSHIFT A       &comma_semico    &dot_colon    &ht RSHIFT H   &ht RCTRL T  &ht RALT S  &kp N
-&kp G  &kp X       &kp J        &kp K              &kp MINUS        &ques_exclam  &kp R          &kp M        &kp F       &kp P
-                                &lt LEF BACKSPACE  &kp TAB          &kp ENTER     &lt RIG SPACE
+&kp B        &kp Y        &kp O       &kp U              &apos_star       &quot_amp     &kp L          &kp D       &kp V        &kp P
+&lh C LMETA  &lh LCTRL I  &lh LALT E  &ht LSHIFT A       &comma_semico    &dot_colon    &ht RSHIFT H   &rh RALT T  &rh RCTRL S  &rh N RMETA
+&kp G        &kp X        &kp J       &kp K              &kp MINUS        &ques_exclam  &kp R          &kp M       &kp F        &kp P
+                                      &lt LEF BACKSPACE  &kp TAB          &kp ENTER     &lt RIG SPACE
             >;
         };
 
