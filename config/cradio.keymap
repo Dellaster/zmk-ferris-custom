@@ -34,10 +34,44 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <275>;
+            quick-tap-ms = <200>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
+        };
+
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <275>;
+            quick_tap_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
+        lh: left_hand_positional_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LEFT_POSITIONAL_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <275>;
+            quick-tap-ms = <200>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <5 6 7 8 9>;
+        };
+
+        rh: right_hand_positional_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RIGHT_POSITIONAL_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <275>;
+            quick-tap-ms = <200>;
+            bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <0 1 2 3 4>;
         };
 
         apos_star: apos_star {
