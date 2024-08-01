@@ -25,6 +25,16 @@
 #define U_WH_L &msc SCRL_LEFT
 #define U_WH_R &msc SCRL_RIGHT
 
+&mt {
+    tapping-term-ms = <275>;
+    quick_tap_ms = <200>;
+};
+
+&lt {
+    tapping-term-ms = <275>;
+    quick_tap_ms = <200>;
+};
+
 / {
     chosen { zmk,charmap = &charmap_us; };
 
