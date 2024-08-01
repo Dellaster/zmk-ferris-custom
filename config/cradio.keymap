@@ -157,16 +157,19 @@
         combo_q {
             bindings = <&kp Q>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         combo_z {
             bindings = <&kp Z>;
             key-positions = <8 9>;
+            layers = <0>;
         };
 
         combo_capsword {
             bindings = <&caps_word>;
             key-positions = <13 16>;
+            layers = <0>;
         };
     };
 
@@ -195,7 +198,7 @@
             bindings = <
 &kp N1   &kp N2    &kp N3     &kp N4   &kp N5     &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
 &kp DEL  &kp CAPS  &kp PSCRN  &kp INS  &trans     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans   &trans    &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &bootloader
+&trans   &trans    &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
                               &trans   &kp ESC    &trans    &trans
             >;
         };
@@ -204,7 +207,7 @@
             bindings = <
 &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT          &kp CARET   &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE
 &kp DQT   &kp LBKT  &kp LBRC  &kp LPAR  &default_report    &kp FSLH    &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI
-&kp SQT   &kp RBKT  &kp RBRC  &kp RPAR  &bootloader        &kp BSLH    &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK
+&kp SQT   &kp RBKT  &kp RBRC  &kp RPAR  &trans             &kp BSLH    &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK
                               &trans    &trans             &tog MOUSE  &trans
             >;
         };
