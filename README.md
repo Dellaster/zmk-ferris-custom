@@ -1,0 +1,11 @@
+Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Layout is Engram with slight symbol alterations to my taste. https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu
+
+Alpha layer is good to go for typing practice; the other layers haven't been touched yet.
+
+![image](https://github.com/user-attachments/assets/0ee505fb-53ac-48aa-9816-b1a780133559)
+
+These two web tools are a great help:
+
+Keymap Editor by Nick Coutsos https://nickcoutsos.github.io/keymap-editor/
+
+Keymap Drawer live demo by caksoylar https://keymap-drawer.streamlit.app/
