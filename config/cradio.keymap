@@ -182,6 +182,16 @@
         };
     };
 
+    macros {
+        qu_q: qu_q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp Q &kp U &kp>, <&macro_press>;
+
+            label = "QU_Q";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
