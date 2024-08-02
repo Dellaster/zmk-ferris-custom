@@ -129,6 +129,15 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        b_one: b_one {
+            compatible = "zmk,behavior-mod-morph";
+            label = "B_ONE";
+            bindings = <&mt KP_NUMBER_1 B>, <&mt DOLLAR LS(B)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
@@ -178,10 +187,10 @@
 
         default_layer {
             bindings = <
-&kp B        &kp Y        &kp O       &kp U              &apos_star       &quot_amp     &kp L          &kp D       &kp W        &kp V
-&lh LMETA C  &lh LCTRL I  &lh LALT E  &ht LSHIFT A       &comma_semico    &dot_colon    &ht RSHIFT H   &rh RALT T  &rh RCTRL S  &rh RMETA N
+&b_one       &kp Y        &kp O       &kp U              &apos_star       &quot_amp     &kp L          &kp D       &kp W        &kp V
+&lh LMETA C  &lh LCTRL I  &lh LALT E  &kp A              &comma_semico    &dot_colon    &kp H          &rh RALT T  &rh RCTRL S  &rh RMETA N
 &kp G        &kp X        &kp J       &kp K              &kp MINUS        &ques_exclam  &kp R          &kp M       &kp F        &kp P
-                                      &lt LEF BACKSPACE  &kp TAB          &kp ENTER     &lt RIG SPACE
+                                      &lt LEF BACKSPACE  &sk LSHIFT       &kp ENTER     &lt RIG SPACE
             >;
         };
 
