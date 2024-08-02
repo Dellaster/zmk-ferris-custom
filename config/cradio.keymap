@@ -132,7 +132,7 @@
         b_one: b_one {
             compatible = "zmk,behavior-mod-morph";
             label = "B_ONE";
-            bindings = <&mt KP_NUMBER_1 B>, <&mt DOLLAR LS(B)>;
+            bindings = <&mt N1 B>, <&mt DOLLAR LS(B)>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -182,15 +182,14 @@
         };
     };
 
-//    macros {
-//        qu_q: qu_q {
-//            compatible = "zmk,behavior-macro";
-//            #binding-cells = <0>;
-//            bindings = <&none &kp Q &kp U &kp>, <&macro_press>;
-
-//            label = "QU_Q";
-//        };
-//    };
+    //    macros {
+    //        qu_q: qu_q {
+    //            compatible = "zmk,behavior-macro";
+    //            #binding-cells = <0>;
+    //            bindings = <&none &kp Q &kp U &kp>, <&macro_press>;
+    //            label = "QU_Q";
+    //        };
+    //    };
 
     keymap {
         compatible = "zmk,keymap";
