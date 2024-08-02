@@ -168,7 +168,7 @@
 
         combo_capsword {
             bindings = <&caps_word>;
-            key-positions = <13 16>;
+            key-positions = <15 14>;
             layers = <0>;
         };
     };
