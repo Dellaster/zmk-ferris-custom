@@ -2,7 +2,7 @@ Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Lay
 
 Alpha layer is good to go for typing practice; the other layers haven't been touched yet.
 
-![image](https://github.com/user-attachments/assets/0ee505fb-53ac-48aa-9816-b1a780133559)
+![my_keymap](https://github.com/user-attachments/assets/1af73c7b-204f-41ea-b423-d9119aaf084e)
 
 These two web tools are a great help:
 
