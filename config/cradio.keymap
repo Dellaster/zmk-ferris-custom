@@ -35,6 +35,11 @@
     quick_tap_ms = <200>;
 };
 
+&sk {
+    release-after-ms = <2000>;
+    quick-release;
+};
+
 / {
     chosen { zmk,charmap = &charmap_us; };
 
