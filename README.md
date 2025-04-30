@@ -1,4 +1,4 @@
-Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Layout is Engram with slight symbol alterations to my taste. https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu
+Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Layout is Engram with slight symbol alterations to my taste.
 
 Alpha layer is good to go for typing practice; the other layers haven't been touched yet.
 
