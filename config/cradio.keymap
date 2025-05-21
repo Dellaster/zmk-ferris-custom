@@ -199,7 +199,16 @@
             >;
         };
 
-        right-and-left_layer {
+        right_layer {
+            bindings = <
+&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
+&lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH   &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
+&kp F1           &kp F2                  &kp F3              &kp F4           &kp F5        &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
+                                                             &lt 1 BACKSPACE  &kp F11       &kp F12       &lt 1 SPACE
+            >;
+        };
+
+        left_layer {
             bindings = <
 &kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
 &lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH   &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
