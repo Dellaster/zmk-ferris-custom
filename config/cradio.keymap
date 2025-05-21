@@ -11,11 +11,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define MAC 0
-#define WIN 1
-#define RIG 2
-#define LEF 3
+#define RIG 1
+#define LEF 2
 #define TRI 4
-#define MOUSE 5
 #define U_MS_U &mmv MOVE_UP
 #define U_MS_D &mmv MOVE_DOWN
 #define U_MS_L &mmv MOVE_LEFT
@@ -26,8 +24,10 @@
 #define U_WH_R &msc SCRL_RIGHT
 
 &mt {
-    tapping-term-ms = <275>;
-    quick_tap_ms = <200>;
+    flavor = "balanced";
+    quick-tap-ms = <150>;//for double tap backspace to repeat
+    tapping-term-ms = <200>;
+    require-prior-idle-ms = <120>;//higher value makes hold harder to trigger, cause it forces a tap instead if within this time. if correct with backspace, we may want a shift/mod so we set this to lowish
 };
 
 &lt {
