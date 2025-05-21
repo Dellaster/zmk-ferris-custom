@@ -193,7 +193,7 @@
         default_layer {
             bindings = <
 &kp B        &kp Y        &kp O       &kp U            &apos_star       &quot_amp     &kp L        &kp D       &kp W        &kp V
-&lh LMETA C  &lh LCTRL I  &lh LALT E  &lh LSHFT A      &comma_semico    &dot_colon    &rh RSHFT H  &rh RALT T  &rh RCTRL S  &rh RMETA N
+&lh LSHFT C  &lh LCTRL I  &lh LALT E  &lh LGUI A       &comma_semico    &dot_colon    &rh RGUI H   &rh RALT T  &rh RCTRL S  &rh RSHFT N
 &kp G        &kp X        &kp J       &kp K            &kp MINUS        &ques_exclam  &kp R        &kp M       &kp F        &kp P
                                       &lt 1 BACKSPACE  &sk LSHIFT       &kp ENTER     &lt 1 SPACE
             >;
@@ -201,10 +201,10 @@
 
         right-and-left_layer {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2            &kp NUMBER_3         &kp NUMBER_4     &kp N5       &kp NUMBER_6  &kp N7                       &kp N8                &kp N9                   &kp N0
-&lh LMETA ESCAPE  &lh LCTRL LEFT_BRACKET  &lh LALT LEFT_BRACE  &lh LSHFT SLASH  &kp EQUAL    &kp GRAVE     &rh RSHIFT NON_US_BACKSLASH  &rh RALT RIGHT_BRACE  &rh RCTRL RIGHT_BRACKET  &rh RMETA TILDE
-&kp F1            &kp F2                  &kp F3               &kp F4           &kp F5       &kp F6        &kp F7                       &kp F8                &kp F9                   &kp F10
-                                                               &lt 1 BACKSPACE  &kp F11      &kp F12       &lt 1 SPACE
+&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
+&lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH   &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
+&kp F1           &kp F2                  &kp F3              &kp F4           &kp F5        &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
+                                                             &lt 1 BACKSPACE  &kp F11       &kp F12       &lt 1 SPACE
             >;
         };
 
@@ -212,7 +212,7 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR_ALL  &out OUT_TOG   &trans  &kp C_MUTE    &kp C_PREV
 &kp PIPE      &trans        &trans        &trans        &trans          &trans          &kp C_BRI_UP   &trans  &kp C_VOL_UP  &kp C_PP
-&kp UP_ARROW  &kp DOWN      &kp LEFT      &kp RIGHT     &trans          &trans          &kp C_BRI_DEC  &trans  &kp C_VOL_DN  &kp C_NEXT
+&kp UP_ARROW  &kp DOWN      &kp LEFT      &kp RIGHT     &kp LBRC        &kp RBRC        &kp C_BRI_DEC  &trans  &kp C_VOL_DN  &kp C_NEXT
                                           &trans        &trans          &trans          &trans
             >;
         };
