@@ -63,6 +63,8 @@
             quick_tap_ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <19 18 17 16 10 11 13 12>;
         };
 
         lh: left_hand_positional_hold_tap {
@@ -74,7 +76,7 @@
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <5 6 7 8 9>;
+            hold-trigger-key-positions = <10 11 12 13>;
         };
 
         rh: right_hand_positional_hold_tap {
@@ -86,7 +88,7 @@
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <0 1 2 3 4>;
+            hold-trigger-key-positions = <19 18 17 16>;
         };
 
         apos_star: apos_star {
@@ -201,19 +203,19 @@
 
         right_layer {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH   &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
-&kp F1           &kp F2                  &kp F3              &kp F4           &kp F5        &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
-                                                             &trans           &kp F11       &kp F12       &trans
+&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
+&lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH  &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
+&kp F1           &kp F2                  &kp F3              &kp F4          &kp F5        &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
+                                                             &trans          &kp F11       &kp F12       &trans
             >;
         };
 
         left_layer {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4     &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH   &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
-&kp F1           &kp F2                  &kp F3              &kp F4           &kp F5        &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
-                                                             &trans           &kp F11       &kp F12       &trans
+&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5        &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
+&lh LSHFT EQUAL  &lh LCTRL LEFT_BRACKET  &lh LALT LESS_THAN  &lh LGUI SLASH  &kp ESCAPE    &kp TAB       &rh RGUI NON_US_BACKSLASH  &rh RALT GREATER_THAN  &rh RCTRL RIGHT_BRACKET  &rh RSHFT MINUS
+&kp F1           &kp F2                  &kp F3              &kp F4          &kp F5        &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
+                                                             &trans          &kp F11       &kp F12       &trans
             >;
         };
 
