@@ -201,19 +201,19 @@
 
         right_layer {
             bindings = <
-&kp NUMBER_1                &kp NUMBER_2            &kp NUMBER_3         &kp NUMBER_4     &kp N5           &kp NUMBER_6  &kp N7       &kp N8                &kp N9                   &kp N0
-&lh LMETA LEFT_PARENTHESIS  &lh LCTRL LEFT_BRACKET  &lh LALT LEFT_BRACE  &kp A            &comma_semico    &dot_colon    &kp H        &rh RALT RIGHT_BRACE  &rh RCTRL RIGHT_BRACKET  &rh RMETA RIGHT_PARENTHESIS
-&kp F1                      &kp F2                  &kp F3               &kp F4           &kp F5           &kp F6        &kp F7       &kp F8                &kp F9                   &kp F10
-                                                                         &lt 1 BACKSPACE  &kp F11          &kp F12       &lt 1 SPACE
+&kp NUMBER_1                &kp NUMBER_2            &kp NUMBER_3         &kp NUMBER_4     &kp N5      &kp NUMBER_6  &kp N7                       &kp N8                &kp N9                   &kp N0
+&lh LMETA LEFT_PARENTHESIS  &lh LCTRL LEFT_BRACKET  &lh LALT LEFT_BRACE  &lh LSHFT SLASH  &kp PLUS    &kp AMPS      &rh RSHIFT NON_US_BACKSLASH  &rh RALT RIGHT_BRACE  &rh RCTRL RIGHT_BRACKET  &rh RMETA RIGHT_PARENTHESIS
+&kp F1                      &kp F2                  &kp F3               &kp F4           &kp F5      &kp F6        &kp F7                       &kp F8                &kp F9                   &kp F10
+                                                                         &lt 1 BACKSPACE  &kp F11     &kp F12       &lt 1 SPACE
             >;
         };
 
         tri_layer {
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &tog 0  &kp C_MUTE    &kp C_PREV
-&kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1    &bt BT_SEL 3  &kp C_BRI_UP   &trans  &kp C_VOL_UP  &kp C_PP
-&kp F9  &kp F10  &kp F11  &kp F12  &bt BT_CLR      &bt BT_SEL 4  &kp C_BRI_DEC  &trans  &kp C_VOL_DN  &kp C_NEXT
-                          &trans   &trans          &trans        &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR_ALL  &out OUT_TOG   &trans  &kp C_MUTE    &kp C_PREV
+&kp PIPE      &trans        &trans        &trans        &trans          &trans          &kp C_BRI_UP   &trans  &kp C_VOL_UP  &kp C_PP
+&kp UP_ARROW  &kp DOWN      &kp LEFT      &kp RIGHT     &trans          &trans          &kp C_BRI_DEC  &trans  &kp C_VOL_DN  &kp C_NEXT
+                                          &trans        &trans          &trans          &trans
             >;
         };
     };
