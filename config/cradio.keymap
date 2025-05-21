@@ -196,16 +196,16 @@
 &kp B        &kp Y        &kp O       &kp U            &apos_star       &quot_amp     &kp L        &kp D       &kp W        &kp V
 &lh LMETA C  &lh LCTRL I  &lh LALT E  &kp A            &comma_semico    &dot_colon    &kp H        &rh RALT T  &rh RCTRL S  &rh RMETA N
 &kp G        &kp X        &kp J       &kp K            &kp MINUS        &ques_exclam  &kp R        &kp M       &kp F        &kp P
-                                      &lt 2 BACKSPACE  &sk LSHIFT       &kp ENTER     &lt 1 SPACE
+                                      &lt 1 BACKSPACE  &sk LSHIFT       &kp ENTER     &lt 1 SPACE
             >;
         };
 
         right_layer {
             bindings = <
-&kp N1  &kp N2  &kp N3     &kp N4   &kp N5     &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
-&kp F1  &kp F2  &kp PSCRN  &kp INS  &trans     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans  &trans  &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
-                           &trans   &kp ESC    &trans    &trans
+&kp B        &kp Y        &kp O       &kp U            &apos_star       &quot_amp     &kp L        &kp D       &kp W        &kp V
+&lh LMETA C  &lh LCTRL I  &lh LALT E  &kp A            &comma_semico    &dot_colon    &kp H        &rh RALT T  &rh RCTRL S  &rh RMETA N
+&kp G        &kp X        &kp J       &kp K            &kp MINUS        &ques_exclam  &kp R        &kp M       &kp F        &kp P
+                                      &lt 2 BACKSPACE  &sk LSHIFT       &kp ENTER     &lt 1 SPACE
             >;
         };
 
