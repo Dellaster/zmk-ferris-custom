@@ -193,7 +193,7 @@
         default_layer {
             bindings = <
 &kp B        &kp Y        &kp O       &kp U            &apos_star       &quot_amp     &kp L        &kp D       &kp W        &kp V
-&lh LMETA C  &lh LCTRL I  &lh LALT E  &kp A            &comma_semico    &dot_colon    &kp H        &rh RALT T  &rh RCTRL S  &rh RMETA N
+&lh LMETA C  &lh LCTRL I  &lh LALT E  &lh LSHFT A      &comma_semico    &dot_colon    &rh RSHFT H  &rh RALT T  &rh RCTRL S  &rh RMETA N
 &kp G        &kp X        &kp J       &kp K            &kp MINUS        &ques_exclam  &kp R        &kp M       &kp F        &kp P
                                       &lt 1 BACKSPACE  &sk LSHIFT       &kp ENTER     &lt 1 SPACE
             >;
