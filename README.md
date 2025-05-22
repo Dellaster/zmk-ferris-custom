@@ -2,7 +2,7 @@ Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Lay
 
 Alpha layer is good to go for typing practice; the other layers are simplified and preliminary. Note that the "right" layer is accessible from either right or left outer thumb keys, similar to how left and right shift keys work on a normal keyboard. this way you can hold the layer key *and* home row shift key for the opposite side's shifted keys.
 
-![image](https://github.com/user-attachments/assets/d849abae-fa40-4e6c-9c2d-4e06000c2c9d)
+![image](https://github.com/user-attachments/assets/55867544-d41d-4150-b724-01d15b37cbb1)
 
 These two web tools are a great help:
 
