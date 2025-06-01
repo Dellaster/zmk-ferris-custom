@@ -135,6 +135,15 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        quot_hash: quot_hash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUOT_HASH";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp HASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
@@ -193,10 +202,10 @@
 
         default_layer {
             bindings = <
-&kp J        &kp O        &kp U       &kp B            &kp SLASH        &kp APOS   &kp F        &kp L       &kp C        &kp V
-&ht LSHFT I  &ht LCTRL A  &ht LALT E  &ht LGUI N       &kp Y            &kp M      &ht RGUI H   &ht RALT T  &ht RCTRL S  &ht RSHFT R
-&kp COMMA    &kp PERIOD   &kp MINUS   &kp P            &kp SEMICOLON    &kp K      &kp D        &kp G       &kp W        &kp X
-                                      &lt 1 BACKSPACE  &sk LSHIFT       &kp ENTER  &lt 2 SPACE
+&kp J          &kp O        &kp U       &kp B            &quot_hash      &apos_star  &kp F        &kp L       &kp C        &kp V
+&ht LSHFT I    &ht LCTRL A  &ht LALT E  &ht LGUI N       &kp Y           &kp M       &ht RGUI H   &ht RALT T  &ht RCTRL S  &ht RSHFT R
+&comma_semico  &dot_colon   &kp MINUS   &kp P            &ques_exclam    &kp K       &kp D        &kp G       &kp W        &kp X
+                                        &lt 1 BACKSPACE  &sk LSHIFT      &kp ENTER   &lt 2 SPACE
             >;
         };
 
