@@ -144,6 +144,15 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        minus_plus: minus_plus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MINUS_PLUS";
+            bindings = <&kp MINUS>, <&kp PLUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
@@ -202,10 +211,10 @@
 
         default_layer {
             bindings = <
-&kp J          &kp O        &kp U       &kp B            &quot_hash      &apos_star  &kp F        &kp L       &kp C        &kp V
-&ht LSHFT I    &ht LCTRL A  &ht LALT E  &ht LGUI N       &kp Y           &kp M       &ht RGUI H   &ht RALT T  &ht RCTRL S  &ht RSHFT R
-&comma_semico  &dot_colon   &kp MINUS   &kp P            &ques_exclam    &kp K       &kp D        &kp G       &kp W        &kp X
-                                        &lt 1 BACKSPACE  &sk LSHIFT      &kp ENTER   &lt 2 SPACE
+&kp V           &kp W        &kp M       &kp G        &minus_plus    &comma_semico  &dot_colon   &apos_star  &kp C        &kp V
+&ht LEFT_GUI I  &ht LCTRL C  &ht LALT N  &ht LSHFT T  &kp K          &kp BACKSPACE  &ht RSHFT A  &ht RALT E  &ht RCTRL I  &ht RMETA H
+&kp X           &kp P        &kp L       &kp D        &quot_hash     &ques_exclam   &kp U        &kp O       &kp Y        &kp F
+                                         &lt 1 R      &sk LSHIFT     &kp ENTER      &lt 2 SPACE
             >;
         };
 
