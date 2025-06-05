@@ -4,7 +4,8 @@ https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.78qav8n9
 
 Alpha layer is good to go for typing practice; the other layers are simplified and preliminary. Note that the right and left layers are identical so that all the extra keys can be used from either right or left outer thumb keys, whichever is more comfortable, similar to how left and right shift keys work on a normal keyboard. This way you can hold the layer key *and* home row shift key for the opposite side's shifted keys.
 
-![image](https://github.com/user-attachments/assets/bcce21e9-44f0-4cb2-84fb-7712ac03b92a)
+![image](https://github.com/user-attachments/assets/6eccad67-d086-4e4e-85de-875ccd8f3af3)
+
 
 These two web tools are a great help:
 
