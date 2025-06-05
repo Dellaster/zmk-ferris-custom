@@ -90,19 +90,19 @@
             hold-trigger-key-positions = <19 18 17 16>;
         };
 
-        apos_star: apos_star {
+        slash_star: slash_star {
             compatible = "zmk,behavior-mod-morph";
-            label = "APOS_STAR";
-            bindings = <&kp SQT>, <&kp ASTERISK>;
+            label = "SLASH_STAR";
+            bindings = <&kp SLASH>, <&kp ASTERISK>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        quot_amp: quot_amp {
+        hash_amp: hash_amp {
             compatible = "zmk,behavior-mod-morph";
-            label = "QUOT_AMP";
-            bindings = <&kp DOUBLE_QUOTES>, <&kp AT_SIGN>;
+            label = "HASH_AMP";
+            bindings = <&kp HASH>, <&kp AT_SIGN>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -126,19 +126,19 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        ques_exclam: ques_exclam {
+        apos_ques: apos_ques {
             compatible = "zmk,behavior-mod-morph";
-            label = "QUES_EXCLAM";
-            bindings = <&kp QUESTION>, <&kp EXCL>;
+            label = "APOS_QUES";
+            bindings = <&kp APOS>, <&kp QMARK>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        quot_hash: quot_hash {
+        quot_excl: quot_excl {
             compatible = "zmk,behavior-mod-morph";
-            label = "QUOT_HASH";
-            bindings = <&kp DOUBLE_QUOTES>, <&kp HASH>;
+            label = "QUOT_EXCL";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp EXCL>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -180,13 +180,13 @@
 
         combo_q {
             bindings = <&kp Z>;
-            key-positions = <7 8>;
+            key-positions = <0 1>;
             layers = <0>;
         };
 
         combo_z {
             bindings = <&kp Q>;
-            key-positions = <8 9>;
+            key-positions = <1 2>;
             layers = <0>;
         };
 
@@ -211,10 +211,10 @@
 
         default_layer {
             bindings = <
-&kp V           &kp W        &kp M       &kp G        &minus_plus    &comma_semico  &dot_colon   &apos_star  &kp C        &kp B
-&ht LEFT_GUI I  &ht LCTRL C  &ht LALT N  &ht LSHFT T  &kp K          &kp BACKSPACE  &ht RSHFT A  &ht RALT E  &ht RCTRL I  &ht RMETA H
-&kp X           &kp P        &kp L       &kp D        &quot_hash     &ques_exclam   &kp U        &kp O       &kp Y        &kp F
-                                         &lt 1 R      &sk LSHIFT     &kp ENTER      &lt 2 SPACE
+&kp X           &kp W        &kp M       &kp G        &quot_excl       &hash_amp      &dot_colon   &apos_ques  &kp J        &kp F
+&ht LEFT_GUI S  &ht LCTRL C  &ht LALT N  &ht LSHFT T  &kp K            &comma_semico  &ht RSHFT A  &ht RALT E  &ht RCTRL I  &ht RMETA H
+&kp V           &kp P        &kp L       &kp D        &slash_star      &minus_plus    &kp U        &kp O       &kp Y        &kp F
+                                         &lt 1 R      &kp BACKSPACE    &kp ENTER      &lt 2 SPACE
             >;
         };
 
