@@ -146,7 +146,7 @@
         ques_exclam: ques_exclam {
             compatible = "zmk,behavior-mod-morph";
             label = "QUES_EXCLAM";
-            bindings = <&kp QMARK>, <&kp RS(EXCL)>;
+            bindings = <&kp QMARK>, <&kp EXCL>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
