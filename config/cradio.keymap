@@ -143,6 +143,40 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        ques_exclam: ques_exclam {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUES_EXCLAM";
+            bindings = <&kp QMARK>, <&kp RS(EXCL)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        apos_star: apos_star {
+            compatible = "zmk,behavior-mod-morph";
+            label = "APOS_STAR";
+            bindings = <&kp APOSTROPHE>, <&kp STAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        quot_hash: quot_hash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUOT_HASH";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp HASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        shiftdance_behavior: shiftdance_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFTDANCE_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&sk LSHFT>, <&caps_word>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
@@ -170,25 +204,19 @@
 
         combo_q {
             bindings = <&kp Z>;
-            key-positions = <0 1>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
         combo_z {
             bindings = <&kp Q>;
-            key-positions = <1 2>;
-            layers = <0>;
-        };
-
-        combo_capsword {
-            bindings = <&caps_word>;
-            key-positions = <15 14>;
+            key-positions = <9 8>;
             layers = <0>;
         };
 
         esc_combo {
             bindings = <&kp ESC>;
-            key-positions = <0 10>;
+            key-positions = <1 2>;
         };
     };
 
@@ -206,10 +234,10 @@
 
         default_layer {
             bindings = <
-&kp X           &kp W        &kp M       &kp G            &quot_excl     &hash_amp      &dot_colon   &apos_ques  &kp J        &kp B
-&ml LEFT_GUI S  &ml LCTRL C  &ml LALT N  &ml LSHFT T      &kp K          &comma_semico  &mr RSHFT A  &mr RALT E  &mr RCTRL I  &mr LEFT_GUI H
-&kp V           &kp P        &kp L       &kp D            &slash_star    &minus_plus    &kp U        &kp O       &kp Y        &kp F
-                                         &lt 1 BACKSPACE  &kp R          &kp ENTER      &lt 2 SPACE
+&kp B           &kp Y        &kp O       &kp U            &apos_star              &quot_hash    &kp L        &kp D       &kp W        &kp V
+&ml LEFT_GUI C  &ml LCTRL I  &ml LALT E  &ml LSHFT A      &comma_semico           &dot_colon    &mr RSHFT H  &mr RALT T  &mr RCTRL S  &mr LEFT_GUI N
+&kp G           &kp X        &kp J       &kp K            &minus_plus             &ques_exclam  &kp R        &kp M       &kp F        &kp P
+                                         &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER     &lt 2 SPACE
             >;
         };
 
