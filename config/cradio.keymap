@@ -217,6 +217,7 @@
         esc_combo {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
+            layers = <0>;
         };
     };
 
