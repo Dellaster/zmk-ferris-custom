@@ -235,28 +235,28 @@
 
         default_layer {
             bindings = <
-&kp B           &kp Y        &kp O       &kp U            &apos_star              &quot_hash    &kp L        &kp D       &kp W        &kp V
-&ml LEFT_GUI C  &ml LCTRL I  &ml LALT E  &ml LSHFT A      &comma_semico           &dot_colon    &mr RSHFT H  &mr RALT T  &mr RCTRL S  &mr LEFT_GUI N
-&kp G           &kp X        &kp J       &kp K            &minus_plus             &ques_exclam  &kp R        &kp M       &kp F        &kp P
-                                         &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER     &lt 2 SPACE
+&kp B  &kp Y        &kp O       &kp U            &apos_star              &quot_hash    &kp L        &kp D       &kp W        &kp V
+&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_semico           &dot_colon    &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
+&kp G  &kp X        &kp J       &kp K            &minus_plus             &ques_exclam  &kp R        &kp M       &kp F        &kp P
+                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER     &lt 2 SPACE
             >;
         };
 
         right_layer {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&ml LSHFT EQUAL  &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &ht RCTRL RIGHT_BRACKET  &mr RSHFT MINUS
-&kp F1           &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
-                                                             &trans          &kp F11    &kp F12       &trans
+&kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
+&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &ht RCTRL RIGHT_BRACKET  &kp MINUS
+&kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
+                                                          &trans          &kp F11    &kp F12       &trans
             >;
         };
 
         left_layer {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&ml LSHFT EQUAL  &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &mr RSHFT MINUS
-&kp F1           &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
-                                                             &trans          &kp F11    &kp F12       &trans
+&kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
+&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp MINUS
+&kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
+                                                          &trans          &kp F11    &kp F12       &trans
             >;
         };
 
