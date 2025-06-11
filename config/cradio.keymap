@@ -199,20 +199,56 @@
             compatible = "zmk,behavior-tap-dance";
             label = "COMMA_DANCE";
             #binding-cells = <0>;
-            bindings = <&comma_ques>, <&kp SEMICOLON>;
+            bindings = <&comma_star>, <&kp SEMICOLON>;
         };
 
         dot_dance: dot_dance {
             compatible = "zmk,behavior-tap-dance";
             label = "DOT_DANCE";
             #binding-cells = <0>;
-            bindings = <&dot_exclam>, <&kp COLON>;
+            bindings = <&dot_hash>, <&kp COLON>;
         };
 
         slash_undersc: slash_undersc {
             compatible = "zmk,behavior-mod-morph";
             label = "SLASH_UNDERSC";
             bindings = <&kp SLASH>, <&kp UNDERSCORE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        comma_star: comma_star {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COMMA_STAR";
+            bindings = <&kp COMMA>, <&kp STAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        dot_hash: dot_hash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DOT_HASH";
+            bindings = <&kp DOT>, <&kp HASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        apos_lpara: apos_lpara {
+            compatible = "zmk,behavior-mod-morph";
+            label = "APOS_LPARA";
+            bindings = <&kp APOS>, <&kp LEFT_PARENTHESIS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        ques_rpara: ques_rpara {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUES_RPARA";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp RIGHT_PARENTHESIS>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -276,17 +312,17 @@
 
         default_layer {
             bindings = <
-&kp B  &kp Y        &kp O       &kp U            &apos_star              &quot_hash      &kp L        &kp D       &kp W        &kp V
-&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_dance            &dot_dance      &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
-&kp G  &kp X        &kp J       &kp K            &minus_plus             &slash_undersc  &kp R        &kp M       &kp F        &kp P
-                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER       &lt 2 SPACE
+&kp B  &kp Y        &kp O       &kp U            &apos_lpara             &ques_rpara   &kp L        &kp D       &kp W        &kp V
+&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_dance            &dot_dance    &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
+&kp G  &kp X        &kp J       &kp K            &kp MINUS               &ques_exclam  &kp R        &kp M       &kp F        &kp P
+                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER     &lt 2 SPACE
             >;
         };
 
         right_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &ht RCTRL RIGHT_BRACKET  &kp MINUS
+&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &ht RCTRL RIGHT_BRACKET  &kp PLUS
 &kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
                                                           &trans          &kp F11    &kp F12       &trans
             >;
@@ -295,7 +331,7 @@
         left_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp MINUS
+&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp PLUS
 &kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
                                                           &trans          &kp F11    &kp F12       &trans
             >;
