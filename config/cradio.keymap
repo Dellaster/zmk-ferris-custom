@@ -195,6 +195,29 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        comma_dance: comma_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COMMA_DANCE";
+            #binding-cells = <0>;
+            bindings = <&comma_ques>, <&kp SEMICOLON>;
+        };
+
+        dot_dance: dot_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOT_DANCE";
+            #binding-cells = <0>;
+            bindings = <&dot_exclam>, <&kp COLON>;
+        };
+
+        slash_undersc: slash_undersc {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SLASH_UNDERSC";
+            bindings = <&kp SLASH>, <&kp UNDERSCORE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
@@ -253,10 +276,10 @@
 
         default_layer {
             bindings = <
-&kp B  &kp Y        &kp O       &kp U            &apos_star              &quot_hash   &kp L        &kp D       &kp W        &kp V
-&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_ques             &dot_exclam  &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
-&kp G  &kp X        &kp J       &kp K            &minus_plus             &kp SEMI     &kp R        &kp M       &kp F        &kp P
-                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER    &lt 2 SPACE
+&kp B  &kp Y        &kp O       &kp U            &apos_star              &quot_hash      &kp L        &kp D       &kp W        &kp V
+&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_dance            &dot_dance      &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
+&kp G  &kp X        &kp J       &kp K            &minus_plus             &slash_undersc  &kp R        &kp M       &kp F        &kp P
+                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER       &lt 2 SPACE
             >;
         };
 
