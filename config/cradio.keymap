@@ -328,7 +328,7 @@
             bindings = <
 &kp B  &kp Y        &kp O       &kp U            &apos_lpara             &ques_rpara  &kp L        &kp D       &kp W        &kp V
 &kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_dance            &dot_dance   &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
-&kp G  &kp X        &kp J       &kp K            &dash_dance             &ques_dance  &kp R        &kp M       &kp F        &kp P
+&kp G  &kp X        &kp J       &kp K            &kp MINUS               &ques_dance  &kp R        &kp M       &kp F        &kp P
                                 &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER    &lt 2 SPACE
             >;
         };
