@@ -254,6 +254,20 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        dash_dance: dash_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DASH_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp PLUS>;
+        };
+
+        ques_dance: ques_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUES_DANCE";
+            #binding-cells = <0>;
+            bindings = <&ques_exclam>, <&kp SLASH>;
+        };
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
@@ -312,10 +326,10 @@
 
         default_layer {
             bindings = <
-&kp B  &kp Y        &kp O       &kp U            &apos_lpara             &ques_rpara   &kp L        &kp D       &kp W        &kp V
-&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_dance            &dot_dance    &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
-&kp G  &kp X        &kp J       &kp K            &kp MINUS               &ques_exclam  &kp R        &kp M       &kp F        &kp P
-                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER     &lt 2 SPACE
+&kp B  &kp Y        &kp O       &kp U            &apos_lpara             &ques_rpara  &kp L        &kp D       &kp W        &kp V
+&kp C  &ml LCTRL I  &ml LALT E  &ml LGUI A       &comma_dance            &dot_dance   &mr RGUI H   &mr RALT T  &mr RCTRL S  &kp N
+&kp G  &kp X        &kp J       &kp K            &dash_dance             &ques_dance  &kp R        &kp M       &kp F        &kp P
+                                &lt 1 BACKSPACE  &shiftdance_behavior    &kp ENTER    &lt 2 SPACE
             >;
         };
 
