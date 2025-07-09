@@ -1,7 +1,7 @@
-Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Layout is Arno's Engram.
+Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Layout is Arno's Engram. (https://engram.dev)
 
-[https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.78qav8n932m7](https://engram.dev)
-     
+![image](https://github.com/user-attachments/assets/0b318b96-4382-4dcc-9dbd-f78ebf904671)
+
 These two web tools are a great help:
 
 Keymap Editor by Nick Coutsos https://nickcoutsos.github.io/keymap-editor/
