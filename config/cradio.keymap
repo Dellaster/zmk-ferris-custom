@@ -338,7 +338,7 @@
         right_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &ht RCTRL RIGHT_BRACKET  &kp PLUS
+&kp GRAVE     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &ht RCTRL RIGHT_BRACKET  &kp AT_SIGN
 &kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
                                                           &trans          &kp F11    &kp F12       &trans
             >;
@@ -347,7 +347,7 @@
         left_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&kp AT        &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp TILDE
+&kp GRAVE     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp AT_SIGN
 &kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
                                                           &trans          &kp F11    &kp F12       &trans
             >;
