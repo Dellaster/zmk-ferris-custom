@@ -297,13 +297,13 @@
 
         combo_q {
             bindings = <&kp Z>;
-            key-positions = <7 8>;
+            key-positions = <28 27>;
             layers = <0>;
         };
 
         combo_z {
             bindings = <&kp Q>;
-            key-positions = <9 8>;
+            key-positions = <29 28>;
             layers = <0>;
         };
 
