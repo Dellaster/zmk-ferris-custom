@@ -347,7 +347,7 @@
         left_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3        &kp NUMBER_4    &kp N5     &kp NUMBER_6  &kp N7                     &kp N8                 &kp N9                   &kp N0
-&kp EQUAL     &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp PLUS
+&kp AT        &ml LCTRL LEFT_BRACKET  &ml LALT LESS_THAN  &ml LGUI SLASH  &kp DEL    &kp TAB       &mr RGUI NON_US_BACKSLASH  &mr RALT GREATER_THAN  &mr RCTRL RIGHT_BRACKET  &kp TILDE
 &kp F1        &kp F2                  &kp F3              &kp F4          &kp F5     &kp F6        &kp F7                     &kp F8                 &kp F9                   &kp F10
                                                           &trans          &kp F11    &kp F12       &trans
             >;
@@ -356,7 +356,7 @@
         tri_layer {
             bindings = <
 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4       &trans        &trans          &trans        &kp C_MUTE    &kp C_PREV
-&trans          &trans        &trans        &trans          &kp LBRC           &kp RBRC      &trans          &kp C_BRI_UP  &kp C_VOL_UP  &kp C_PP
+&trans          &trans        &trans        &kp PLUS        &kp LBRC           &kp RBRC      &kp EQUAL       &kp C_BRI_UP  &kp C_VOL_UP  &kp C_PP
 &bt BT_CLR_ALL  &trans        &trans        &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp UP_ARROW  &kp DOWN_ARROW  &kp C_BRI_DN  &kp C_VOL_DN  &kp C_NEXT
                                             &trans          &trans             &trans        &trans
             >;
