@@ -3,7 +3,7 @@ Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Cus
 <img width="915" height="1764" alt="my_keymap" src="https://github.com/user-attachments/assets/0ca941d6-055d-4680-b286-cd70cc9a55cb" />
 
 Stats calculated at https://cyanophage.github.io/table.html by editing one of the existing layouts to match as best as possible what I had in mind:
-![image](https://github.com/user-attachments/assets/691543a7-a71a-4521-a8b7-16ca223c0758)
+![image](https://github.com/user-attachments/assets/0063bda3-f2c3-4be3-b4c4-434f771a2cdf)
 High inward rolls, high alternations, and pretty decent everywhere else.
 
 These two web tools are a great help:
