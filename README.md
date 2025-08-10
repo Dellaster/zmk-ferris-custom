@@ -1,4 +1,4 @@
-Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Custom layout is flipped and tweaked from a HIEAMTSRN & BALANCE 12 starting point. Heavily weighted to the bottom row instead of top because I'm learning in preparation for getting a Svalboard, which favors south characters over north ones.
+Yet another ZMK Ferris Sweep Bling config I'm testing out. Work in progress. Custom layout is flipped and tweaked from an HIEAMTSRN starting point. Heavily weighted to the bottom row instead of top because I'm learning in preparation for buying a Svalboard, which favors south characters over north ones. And, contrary to the common opinion, my fingers seem to prefer the curl downwards.
 
 <img width="915" height="1764" alt="my_keymap" src="https://github.com/user-attachments/assets/0ca941d6-055d-4680-b286-cd70cc9a55cb" />
 
